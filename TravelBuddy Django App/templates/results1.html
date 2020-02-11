@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Itinerary</title>
+</head>
+<body>
+Here's Your Recommended Itinerary
+
+<h1> Your recommended city is {{city_name}}</h1>
+<h1> Eat here:</h1>
+    <p>
+    {% for restaurant_name in restaurant_names %}
+        {{restaurant_name}}.<b></b>
+    {% endfor %}
+     </p>
+
+
+<h1> Here are the attractions you should go to:</h1>
+    <p>
+    {% for attraction_name in attraction_names %}
+        {{attraction_name}}<b></b>
+    {% endfor %}
+     </p>
+
+<h1> Here are the links for those attractions you should go to:</h1>
+    <p>
+    {% for link in links %}
+        {{link}}<b></b>
+    {% endfor %}
+     </p>
+
+
+
+</body>
+</html>

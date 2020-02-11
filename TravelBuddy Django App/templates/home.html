@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cities</title>
+</head>
+<body>
+
+<form action="{% url 'results' %}" method="POST">
+  Enter a city you like:<br><br>
+  <input type="text" name="city1" value=""><br><br>
+    Enter another city you like:<br><br>
+  <input type="text" name="city2" value=""><br><br>
+
+    Enter a last city that you like:<br><br>
+  <input type="text" name="city3" value=""><br><br>
+
+    Enter your favorite restaurant in NYC:<br>
+  <input type="text" name="restaurant1" value=""><br><br>
+
+    Enter another restaurant you like in NYC:<br>
+  <input type="text" name="restaurant2" value=""><br><br>
+  <input type="submit" value="Submit">><br><br>
+     {% csrf_token %}
+
+    Choose from these cities:<br>
+    Adelaide<br>
+Amsterdam<br>
+Athens<br>
+Auckland<br>
+Austin <br>
+Buangkok<br>
+Barcelona<br>
+Beijing<br>
+Berlin<br>
+Bordeaux<br>
+Boston<br>
+Brisbane<br>
+Brussels<br>
+Budapest<br>
+Buenos Aires<br>
+Cairns<br>
+Canberra<br>
+Cancún<br>
+Cape Town<br>
+Casablanca<br>
+Chicago<br>
+Copenhagen<br>
+Dubai<br>
+Dublin<br>
+Edinburgh<br>
+Frankfurt<br>
+Galway<br>
+Halifax<br>
+Hong Kong<br>
+Honolulu<br>
+Istanbul<br>
+Jakarta<br>
+Johannesburg<br>
+Kolkata<br>
+Kraków<br>
+Kuala Lumpur<br>
+Las Vegas<br>
+Lima<br>
+London<br>
+Los Angeles<br>
+Madrid<br>
+Manila<br>
+Marrakech<br>
+Melbourne<br>
+Mexico City<br>
+Milan<br>
+Montreal<br>
+Moscow<br>
+Mostar<br>
+Munich<br>
+Nashville<br>
+New Dehli<br>
+New York City<br>
+Orlando<br>
+Ottawa<br>
+Paris<br>
+Perth<br>
+Prague<br>
+Quebec<br>
+Reykjavik<br>
+Riga<br>
+Rio De Janeiro<br>
+Rome<br>
+San Francisco<br>
+Santiago<br>
+Sao Paulo<br>
+Savannah<br>
+Seattle<br>
+Seoul<br>
+Singapore<br>
+St. Petersburg<br>
+Stockholm<br>
+Sydney<br>
+Tallinn<br>
+Tokyo<br>
+Toronto<br>
+Valletta<br>
+Vancouver<br>
+Vienna<br>
+Washington D.C.<br>
+Wellington<br>
+Marseille<br>
+Belfast<br>
+Calgary<br>
+Helsinki<br>
+Lyon<br>
+Oslo<br>
+Warsaw<br>
+Zurich<br>
+Glasgow<br>
+Liverpool<br>
+San Diego<br>
+Santa Barbara<br>
+Baltimore<br>
+Philadelphia<br>
+
+
+</form>
+
+
+</body>
+</html>
